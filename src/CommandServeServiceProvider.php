@@ -1,7 +1,7 @@
 <?php
-namespace Devgowa\LumenServe;
+namespace Linhdanchu\LumenServe;
 
-use Devgowa\LumenServe\Console\Commands\ServeCommand;
+use Linhdanchu\LumenServe\Console\Commands\ServeCommand;
 use Illuminate\Support\ServiceProvider;
 
 class CommandServeServiceProvider extends ServiceProvider

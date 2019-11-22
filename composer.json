@@ -1,5 +1,5 @@
 {
-    "name": "devgowa/lumen-serve",
+    "name": "linhdanchu/lumen-serve",
     "description": "A command php artisan serve for lumen framework",
     "type": "library",
     "require": {
@@ -10,12 +10,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Muhammad Nur Wahid",
-            "email": "codeofdeadly@gmail.com"
+            "name": "Nguyen Linh"
         }
     ],
     "minimum-stability": "stable",
     "autoload":{
-        "classmap":["src/"]
+        "classmap":["src/"],
+        "psr-4": {
+            "Linhdanchu\\": "src/"
+        }
     }
 }

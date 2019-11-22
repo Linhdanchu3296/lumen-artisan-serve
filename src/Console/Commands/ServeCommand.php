@@ -1,5 +1,5 @@
 <?php
-namespace Devgowa\LumenServe\Console\Commands;
+namespace Linhdanchu\LumenServe\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\ProcessUtils;
