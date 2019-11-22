@@ -1,20 +1,21 @@
 {
-  "name": "linhdanchu/lumen-artisan-serve",
-  "type": "library",
-  "description": "artisan serve for Lumen projects",
-  "keywords": ["lumen","artisan"],
-  "homepage": "https://github.com/lindanchu/lumen-artisan-serve",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Nguyen Linh"
+    "name": "devgowa/lumen-serve",
+    "description": "A command php artisan serve for lumen framework",
+    "type": "library",
+    "require": {
+        "php":"^7.0",
+        "symfony/console": "^4.0",
+        "symfony/process": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Nur Wahid",
+            "email": "codeofdeadly@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "classmap":["src/"]
     }
-  ],
-  "minimum-stability": "stable",
-  "autoload": {
-    "classmap": ["src/"],
-    "psr-4": {
-      "Linhdanchu\\": "src/"
-    }
-  }
 }

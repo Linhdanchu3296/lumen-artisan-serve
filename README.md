@@ -1,13 +1,10 @@
-# artisan serve... for Lumen
-
-artisan serve for Lumen projects
+# lumen-serve
+Command php artisan serve for lumen framework
 
 # Installation
+1. `composer require devgowa/lumen-serve`
+2. Register service provider in `boostrap\app.php` with `$app->register(Devgowa\LumenServe\CommandServeServiceProvider::class)`
+3. Run `php artisan serve`
 
-1. `composer require linhdanchu/lumen-artisan-serve`
-
-2. Add the following line to the $commands array in app/Console/Kernel.php:
-
-    `\Linhdanchu\Console\Commands\Serve::class,`
-
-3. artisan serve
+# Disclaimer
+Just copied from [laravel/framework](https://github.com/laravel/framework) by [@taylorotwell](https://github.com/taylorotwell)
