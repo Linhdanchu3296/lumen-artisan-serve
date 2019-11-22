@@ -1,0 +1,20 @@
+{
+  "name": "linhdanchu/lumen-artisan-serve",
+  "type": "library",
+  "description": "artisan serve for Lumen projects",
+  "keywords": ["lumen","artisan"],
+  "homepage": "https://github.com/lindanchu/lumen-artisan-serve",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Linh"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "classmap": ["src/"],
+    "psr-4": {
+      "Linhdanchu\\": "src/"
+    }
+  }
+}
