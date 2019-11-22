@@ -4,7 +4,7 @@ artisan serve for Lumen projects
 
 # Installation
 
-1. `composer require linhdanchu/lumen-artisan-serve "~1"`
+1. `composer require linhdanchu/lumen-artisan-serve`
 
 2. Add the following line to the $commands array in app/Console/Kernel.php:
 
