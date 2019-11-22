@@ -1,5 +1,5 @@
 {
-    "name": "linhdanchu/lumen-serve",
+    "name": "linhdanchu/lumen-artisan-serve",
     "description": "A command php artisan serve for lumen framework",
     "type": "library",
     "require": {
